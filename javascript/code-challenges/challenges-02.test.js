@@ -85,7 +85,7 @@ const forEachTwoToThe = (arr) => {
   return eachArr;
 };
 
-// STEPS to Solve:
+// STEPS TO SOLVE:
 // Create an empty array (loopArr) to store the results.
 // Use a loop (you can use a forEach, for, for...of, or for...in loop).
 // Raise 2 to the power of each number in the array using Math.pow(2, num).
