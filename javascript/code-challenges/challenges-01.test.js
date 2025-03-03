@@ -68,9 +68,6 @@ Use `forEach` to build a new array of strings, each string modified by the callb
     return word.toUpperCase() + "!";
   };
 
-
-
-
   const speaker = (words, callback) => {
     let newArray = []; // Initialize a local array
   
