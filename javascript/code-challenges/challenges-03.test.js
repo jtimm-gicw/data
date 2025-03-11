@@ -9,9 +9,11 @@ Write a function called addTwo that takes in an array and adds two to every valu
 const addTwo = (arr) => {
   let newArr= [];
   for (let i= 0; i < arr.length; i++){
+
    newArr.push(arr[i] + 2); // need to access individual elements using arr[i]
   }
   return newArr;
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -23,12 +25,14 @@ For example, typeNum([1, 'bob' ,3]) returns [1,3].
 ------------------------------------------------------------------------------------------------ */
 
 const typeNum = (arr) => {
+
   return arr.filter(item => typeof item === 'number');
 };
 // EXPLAINATION:
 // The .filter() method loops through each element in the array.
 // The typeof item === 'number' condition ensures only numbers are included in the new array.
 // The function then returns the filtered array.
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -38,10 +42,12 @@ For example, containsAnd(['panda', 'ran', 'and']) returns ['panda', 'and'].
 ------------------------------------------------------------------------------------------------ */
 
 const containsAnd = (arr) => {
+
   return arr.filter((word) => word.includes("and")); // Use `includes` to check for "and", (word) is our placeholder and we are asking if a word includes "and"
 };
 
 console.log(containsAnd(["panda", "ran", "and"])); // Expected Output: ['panda', 'and'], the console.log is using the array (["panda", "ran", "and"]) and the function will 
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
@@ -51,9 +57,11 @@ For example, oddValues([1,2,3]) returns [1,3].
 ------------------------------------------------------------------------------------------------ */
 
 const oddValues = (arr) => {
+
   return arr.filter((num) => num % 2 !== 0);
 };
 console.log([1,2,3,4,5,6]);
+
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -65,11 +73,13 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 ------------------------------------------------------------------------------------------------ */
 
 const notInFirstArray = (forbiddenValues, arr) => {
+
   return arr.filter((item) => !forbiddenValues.includes(item));
 }; // The parameter (item) that represents each element of the arr array as .filter() iterates through it. !forbiddenValues.includes(item) means that if the number is NOT(!) in forbiddenValues array & filters the items into a new area with the numbers that are not in the original []
 
 console.log(notInFirstArray([1, 2, 3], [1, 2, 3, 4])); 
 // Output: [4]
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 - Stretch Goal
