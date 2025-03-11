@@ -65,8 +65,11 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 ------------------------------------------------------------------------------------------------ */
 
 const notInFirstArray = (forbiddenValues, arr) => {
-  // Solution code here...
-};
+  return arr.filter((item) => !forbiddenValues.includes(item));
+}; // The parameter (item) that represents each element of the arr array as .filter() iterates through it. !forbiddenValues.includes(item) means that if the number is NOT(!) in forbiddenValues array & filters the items into a new area with the numbers that are not in the original []
+
+console.log(notInFirstArray([1, 2, 3], [1, 2, 3, 4])); 
+// Output: [4]
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 - Stretch Goal
@@ -232,7 +235,7 @@ describe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   const firstNums = [1, 2, 3];
   const secondNums = [1, 2, 3, 4];
 
