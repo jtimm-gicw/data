@@ -25,7 +25,7 @@ Write a function named addValues that, given an array of numbers as input, uses 
 const addValues = (arr) => {
   return arr.reduce((accumulator, value) => {
     return accumulator += value;
-  },0);
+  },0); // Reduce NEEDS an initial value
 
 };
 
@@ -44,7 +44,8 @@ Write a function named addPurchases that, given an array of objects as input, us
 const addPurchases = (arr) => {
   return arr.reduce((accumulator, value) => {
     return accumulator += value.purchasePrice;
-  },0);// O symbolizes we have an initial value                               
+  },0); // Reduce NEEDS an initial value
+  // O symbolizes we have an initial value                               
 
 };
 
@@ -58,7 +59,7 @@ Note: You may not use the array's built-in length property.
 ------------------------------------------------------------------------------------------------ */
 
 const countNumberOfElements = (arr) => {
-  // Solution code here...
+  return arr.reduce((accumulator) => accumulator + 1, 0);  
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -67,7 +68,8 @@ CHALLENGE 5
 Write a function named returnNames that, given the Star Wars data, below, uses reduce to return an array containing the names of the characters.
 ------------------------------------------------------------------------------------------------ */
 
-let starWarsData = [{
+let starWarsData = [
+  {
   name: 'Luke Skywalker',
   height: '172',
   mass: '77',
@@ -118,9 +120,13 @@ let starWarsData = [{
 }];
 
 const returnNames = (arr) => {
-  // Solution code here...
+  return arr.reduce((accumulator, character) => {
+    accumulator.push(character.name);
+    return accumulator;
+  }, []); // .reduce() iterates over arr, which contains the Star Wars characters
+  //.reduce() needs an initial value to start accumulating results. So we use the empty array.
 };
-
+// If we omit it[], .reduce() will try to use the first element of arr as the initial value, which would cause errors since we are working with objects, not strings.
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -130,9 +136,10 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 ------------------------------------------------------------------------------------------------ */
 
 const reversedString = (str) => {
-  // Solution code here...
+  return str.split('').reduce((accumulator, char) => char + accumulator, '')  // Reduce NEEDS an initial value
+  // ('') empty string is the intial value;
 };
-
+// Since .reduce() works on arrays, we need to split the string into an array of characters using .split('')
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
