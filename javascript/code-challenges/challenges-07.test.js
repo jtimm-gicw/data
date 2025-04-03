@@ -22,7 +22,10 @@ function lower(str) {
 }
 
 const updateAnimal = (arr, callback) => {
-  // Solution code here...
+  const newArr = [];
+  arr.forEach(animal => newArr.push(callback(animal)));//calling back the animal array from the TESTS at the bottom
+  // Callback is a shortcut to call back the prev set of data
+return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -35,6 +38,7 @@ For example: 'Cat' would come before 'apple'
 
 const sortNames = (arr) => {
   return arr.sort();
+  // .sort orders aphabetically, capital letters first
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -92,7 +96,8 @@ const sortByPrice = (arr) => {
   return arr.sort((a,b) => a.price -b.price);
 };
 // ALWAYS a and b are used 
-/* ------------------------------------------------------------------------------------------------
+/* 
+------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
 Write a function named alphabetizeBetter that takes in an array of strings and returns the same array, with the strings sorted alphabetically. Capitalization should not change the sort order of two strings.
