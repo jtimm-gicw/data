@@ -7,9 +7,11 @@ Write a function named returnTen, takes in a string and uses split and splice to
 
 ------------------------------------------------------------------------------------------------ */
 
-function returnTen(str){
-  // Solution code here...
+function returnTen(str) {
+  let chars = str.split(''); // Step 1: Turn the string into an array
+  return chars.splice(-10);  // Step 2: Take the last 10 characters
 }
+console.log(returnTen("hello world"));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
