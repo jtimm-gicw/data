@@ -28,7 +28,8 @@ For example:
 return: 23
 ------------------------------------------------------------------------------------------------ */
 const findMax = (matrix) => {
-  // Solution code here...
+  const allNumbers = matrix.flat();         // Flatten into one array
+  return Math.max(...allNumbers);           // Find the max value
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -46,8 +47,15 @@ For example:
 return: 35
 ------------------------------------------------------------------------------------------------ */
 const totalSum = (matrix) => {
-  // Solution code here...
+  return matrix.reduce((total, row) => {
+    return total + row.reduce((sum, num) => sum + num, 0);
+  }, 0);
 };
+/*Loop through each row of the matrix.
+
+Loop through each number in the row (or use .reduce()).
+
+Add them all together. */
 
 
 /* ------------------------------------------------------------------------------------------------
@@ -97,8 +105,22 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 ------------------------------------------------------------------------------------------------ */
 
 const salesData = (hours, data) => {
-  // Solution code here...
+  const formatted = [];
+
+  hours.forEach((hour, i) => {
+    formatted.push({
+      sales: `${data[i]} cookies`,
+      time: hour
+    });
+  });
+
+  return formatted;
 };
+// Takes in two arrays:
+
+// hours: an array of time strings (e.g., "9 a.m.")
+
+// data: an array of cookie sales per hour (e.g., 88)
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -122,8 +144,21 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
-  // Solution code here...
+  let result = 0;
+
+  arr.forEach(store => {
+    if (store.store === 'Pet store') {
+      store.items.forEach(item => {
+        if (item.name === 'Treats') {
+          result = item.quantity;
+        }
+      });
+    }
+  });
+
+  return result;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
