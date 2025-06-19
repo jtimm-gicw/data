@@ -22,8 +22,11 @@ reverse-array (cc1)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+<<<<<<< HEAD
 - We reversed the array by swapping the outside pair inward
 
+=======
+>>>>>>> 27eb2a01a719d07afadfd4afc731e05318133625
 **Approach Explanation**
 reversedArray is started as a []
 The loop begins with i =4 (the last element).
