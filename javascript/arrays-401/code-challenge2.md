@@ -2,7 +2,7 @@
 insertShiftArray
 
 ## Whiteboard Process
-![Whiteboard Process ](/img/insertShiftArray-wp_cc2.png)
+![insertShiftArray ](/img/insertShiftArray-wp_cc2.png)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->

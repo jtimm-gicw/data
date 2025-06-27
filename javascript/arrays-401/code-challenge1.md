@@ -5,7 +5,7 @@
 reverse-array (cc1)
 
 ## Whiteboard Process
-![Whiteboard Process ](img/whiteboard_process_reverse-array.png)
+![Reverse Array ](img/whiteboard_process_reverse-array.png)
 [https://www.figma.com/board/tSS5jeJ3B4iA2ivMZeKVD9/Whiteboard-Process?node-id=0-1&t=qpENg3q9JZFHI9md-1]
 
 ## Approach & Efficiency
