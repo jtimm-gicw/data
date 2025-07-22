@@ -11,4 +11,7 @@
 ##[Code Challenge 4: Tech. Interview Practice- Matrix Row Sum](arrays-401/code-challenge4.md)
 ##[Code Challenge 5: Listed Links](linked-list-401/code-challenge5.md)
 ##[Code Challenge 6: Linked List- Linked List Insertion](linked-list-insertion/code-challenge6.md)
+##[Code Challenge 7 : Linked List- kth](linked-list-insertion/code-challenge7.md)
+##[Code Challenge 8 : Linked List- zip](linked-list-zip/code-challenge8.md)
+
 
