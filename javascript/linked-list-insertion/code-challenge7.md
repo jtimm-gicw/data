@@ -1,13 +1,43 @@
 
 # Challenge Title
 <!-- Challenge Name -->
+
+
+## Whiteboard Process
+![Whiteboard Process ](img/)
+=======
 kthFromEnd(k)
 ## Whiteboard Process
 ![Whiteboard Process ](img/kthFromEnd-wp_cc7.png)
 
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 **Approach Explanation**
+
+
+**The Big-O**
+*Time Complexity:*
+
+
+*Space Complexity:*
+
+## Solution
+<!-- Show how to run your code, and examples of it in action -->
+
+<!-- CHECKLIST: Whiteboard Process -->
+
+ - [ ] Top-level README “Table of Contents” is updated
+ - [ ] README for this challenge is complete
+       - [ ] Summary, Description, Approach & Efficiency, Solution
+       - [ ] Picture of whiteboard
+       - [ ] Link to code
+ - [ ] Feature tasks for this challenge are completed
+ - [ ] Unit tests written and passing
+       - [ ] “Happy Path” - Expected outcome
+       - [ ] Expected failure
+       - [ ] Edge Case (if applicable/obvious)
+=======
 1. Check if k is a valid number. If k is less than 0, it's not allowed — throw an error.
 2. Start two pointers at the beginning of the list. Call them fast and slow. Both point to the first node (the head of the list).
 3. Move the fast pointer k steps forward. This creates a gap of k nodes between the fast and slow pointers.
@@ -63,3 +93,4 @@ for (i=0, i<k, i++) {
        - [ x ] “Happy Path” - Expected outcome
        - [ x ] Expected failure
        - [ x ] Edge Case (if applicable/obvious)
+
