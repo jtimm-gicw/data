@@ -13,5 +13,6 @@
 ##[Code Challenge 6: Linked List- Linked List Insertion](linked-list-insertion/code-challenge6.md)
 ##[Code Challenge 7 : Linked List- kth](linked-list-insertion/code-challenge7.md)
 ##[Code Challenge 8 : Linked List- zip](linked-list-zip/code-challenge8.md)
+##[Code Challenge 7: Linked List- ](linked-list-insertion/code-challenge6.md)
 
 
