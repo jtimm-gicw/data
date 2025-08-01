@@ -4,7 +4,7 @@ class Stack {
   constructor() {
     this.storage = [];
   }
-
+// passing a value
   push(value) {
     this.storage.push(value);
   }
