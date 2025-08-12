@@ -14,5 +14,12 @@
 ##[Code Challenge 7 : Linked List- kth](linked-list-insertion/code-challenge7.md)
 ##[Code Challenge 8 : Linked List- zip](linked-list-zip/code-challenge8.md)
 ##[Code Challenge 9: Linked List- reverse ](linked-list-insertion/code-challenge9.md)
+##[Code Challenge 10: Name ](pathName/code-challenge10.md)
+##[Code Challenge 11: Pseudo-queues ](stacks-and-queues/code-challenge11.md)
+##[Code Challenge 12: Animal-shelter ](stacks-and-queues/code-challenge12.md)
+##[Code Challenge 13: Stack-queue-brackets ](stacks-and-queues/code-challenge13.md)
+##[Code Challenge 14: Tech. Interview Practice ](pathName/code-challenge14.md)
+##[Code Challenge 15: Name ](pathName/code-challenge15.md)
+##[Code Challenge 16: Name ](pathName/code-challenge16.md)
 
 
