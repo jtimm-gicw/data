@@ -18,8 +18,8 @@
 ##[Code Challenge 11: Pseudo-queues ](stacks-and-queues/code-challenge11.md)
 ##[Code Challenge 12: Animal-shelter ](stacks-and-queues/code-challenge12.md)
 ##[Code Challenge 13: Stack-queue-brackets ](stacks-and-queues/code-challenge13.md)
-##[Code Challenge 14: Tech. Interview Practice ](pathName/code-challenge14.md)
-##[Code Challenge 15: Name ](pathName/code-challenge15.md)
+##[Code Challenge 14: Tech. Interview Practice ](stacks-and-queues/code-challenge14.md)
+##[Code Challenge 15: Trees ](trees/tree.js)
 ##[Code Challenge 16: Name ](pathName/code-challenge16.md)
 
 
