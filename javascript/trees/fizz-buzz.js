@@ -10,13 +10,6 @@ Recursively do the same for all its children.
 Return the new tree. 
 */
 
-function fizzBuzzValue(value) {
-  if (value % 15 === 0) return "FizzBuzz"; // divisible by both
-  if (value % 3 === 0) return "Fizz"; 
-  if (value % 5 === 0) return "Buzz";
-  return value.toString(); // just turn into a string 
-}
-
 // Node class: represents one node in the K-ary tree
 // -----------------------------
 class Node {
@@ -37,7 +30,7 @@ class KaryTree {
 // Helper function: applies FizzBuzz rules to a single number
 // -----------------------------
 function fizzBuzzValue(value) {
-  if (value % 15 === 0) return "FizzBuzz"; // divisible by both 3 and 5
+  if (value % 3 === 0 && value % 5 === 0) return "FizzBuzz"; // divisible by both 3 or 5
   if (value % 3 === 0) return "Fizz";      // divisible by 3 only
   if (value % 5 === 0) return "Buzz";      // divisible by 5 only
   return value.toString();                 // not divisible by 3 or 5 → convert number to string
