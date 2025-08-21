@@ -63,3 +63,14 @@ console.log("Original Array:", exampleArray);
 
 const sortedArray = mergeSort(exampleArray);
 console.log("Sorted Array:", sortedArray);
+
+
+// ==============================
+/* 
+INPUT:
+Original Array: [8, 4, 23, 42, 16, 15]
+
+OUTPUT:
+Sorted Array:   [4, 8, 15, 16, 23, 42]
+*/
+
