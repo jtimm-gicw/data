@@ -29,6 +29,7 @@ Compare 1 vs 2 → [1]
 Compare 3 vs 2 → [1, 2]
 Compare 3 vs 4 → [1, 2, 3]
 Append leftover 4 → [1, 2, 3, 4]
+
 <!-- CHECKLIST: Whiteboard Process -->
 
  - [ x ] Top-level README “Table of Contents” is updated
