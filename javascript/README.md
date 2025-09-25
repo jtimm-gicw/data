@@ -40,6 +40,6 @@
 ##[Code Challenge 33: Name ](pathName/)
 ##[Code Challenge 34: Most Common Word](hashmap/code-challenge34.md)
 ##[Code Challenge 35: Graph Implementation ](graphs/graph.js)
-##[Code Challenge 36: Graph-breadth-first.js ](graphs/graph-breadth-first.js)
+##[Code Challenge 36: Graph-breadth-first ](graphs/graph-breadth-first.js)
 
 
