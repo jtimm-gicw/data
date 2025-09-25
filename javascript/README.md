@@ -34,11 +34,12 @@
 ##[Code Challenge 27: Name ](pathName/)
 ##[Code Challenge 28: Name ](pathName/)
 ##[Code Challenge 29: Name ](pathName/)
-##[Code Challenge 30: Name ](pathName/)
-##[Code Challenge 31: Name ](pathName/)
+##[Code Challenge 30: Name ](hashmap/code-challenge31.md)
+##[Code Challenge 31: hashmap-repeated-words ](has/)
 ##[Code Challenge 32: Name ](pathName/)
 ##[Code Challenge 33: Name ](pathName/)
-##[Code Challenge 34: Most Common Word](pathName/)
-##[Code Challenge 35: Name ](pathName/)
+##[Code Challenge 34: Most Common Word](hashmap/code-challenge34.md)
+##[Code Challenge 35: Graph Implementation ](graphs/graph.js)
+##[Code Challenge 36: Graph-breadth-first.js ](graphs/graph-breadth-first.js)
 
 
