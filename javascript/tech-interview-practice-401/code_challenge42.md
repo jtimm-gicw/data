@@ -1,5 +1,6 @@
 # Challenge Title
 <!-- Challenge Name -->
+3 Ways to reverse string
 
 ## Whiteboard Process
 ![Whiteboard Process ](img/reverse-string-3-wp_cc42.png)
