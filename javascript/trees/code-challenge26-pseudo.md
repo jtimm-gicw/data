@@ -1,6 +1,6 @@
 # Challenge Title
 <!-- Challenge Name -->
-
+Pseudocode Explanation
 ## Whiteboard Process
 ![Pseudocode Explanation ](img/pseudo-insert-wp_cc26.png)
 
