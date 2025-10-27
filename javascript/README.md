@@ -45,8 +45,8 @@
 ##[Code Challenge 38: Graph-depth-first ](graphs/graph-depth-first.js)
 ##[Code Challenge 39: 2D Array ](tech-interview-practice-401/array-2D.md)
 ##[Code Challenge 41: Navigator ](tech-interview-practice-401/navigator-wp_cc41.png)
-##[Code Challenge 42: Name ](pathName/)
-
+##[Code Challenge 42: 3 Ways to reverse string ](/tech-interview-practice-401/code_challenge42.md)
+##[Code Challenge 43: Sprinklers & Valves ](tech-interview-practice-401/code_challenge43.md)
 
 
 
